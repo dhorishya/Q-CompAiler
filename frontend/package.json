@@ -5,8 +5,10 @@
     "dev": "vite"
   },
   "dependencies": {
+    "npm": "^11.4.2",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
     "vite": "^7.0.5"
