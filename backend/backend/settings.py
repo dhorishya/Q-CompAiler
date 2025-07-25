@@ -1,10 +1,16 @@
 # Minimal Django settings
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+
 SECRET_KEY = 'django-insecure-1234567890'
 DEBUG = True
 ALLOWED_HOSTS = []
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
