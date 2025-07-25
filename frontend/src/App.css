@@ -66,3 +66,14 @@ button {
     padding: 1.2rem 0.5rem 1rem 0.5rem;
   }
 }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #181824 !important;
+  color: #fff;
+}
+#root {
+  min-height: 100vh;
+}

@@ -1,1 +1,29 @@
- 
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+backend/api/venv/
+.venv/
+venv/
+*.log
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+dist/
+build/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+
